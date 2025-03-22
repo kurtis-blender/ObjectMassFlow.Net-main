@@ -1,0 +1,269 @@
+* {background-color: black;}
+body {color: white;}
+a {color: red;}
+strong {font-family: "Bembo Bold";}
+em {font-family: "Bembo Italic";}
+
+
+.header {
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+.return {
+    font-family: "Bembo Bold";
+    font-size: 1.15rem;
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-right: auto;
+}
+
+.image {
+    max-width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    font-family: "Bembo Bold";
+    font-size: 2.5rem;
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    grid-column: 3;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+.image1 {
+    max-width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 7px;
+}
+.image2 {
+    max-width: 300px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 7px;
+}
+.image3 {
+    max-width: 300px;
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 7px;
+}
+.image4 {
+    max-width: 300px;
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 7px;
+}
+.image5 {
+    max-width: 300px;
+    grid-column: 5;
+    grid-row: 1;
+    margin-top: 7px;
+}
+.description {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.tags {
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+}
+
+@font-face {
+    font-family: "Bembo";
+    src: url(../../../Fonts/BemboStd.woff2);
+}
+@font-face {
+font-family: "Bembo Bold";
+src: url(../../../Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+font-family: "Bembo Italic";
+src: url(../../../Fonts/BemboStd-Italic.woff2);
+}
+@font-face {
+font-family: "Bembo SemiBold Italic";
+src: url(../../../Fonts/BemboStd-SemiboldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo Bold Italic";
+src: url(../../../Fonts/BemboStd-BoldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo ExtraBold Italic";
+src: url(../../../Fonts/BemboStd-ExtraBoldItalic.woff2);
+}
+
+
+@media only screen and (max-width: 1525px) {
+    .content {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr ;
+    }
+    .image1{
+        max-width: 100%;
+    }
+    .image2 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image3 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image4 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image5 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image6 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image7 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image8 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image9 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .content {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 5px;
+    }
+    .image1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;
+        max-width: 100%;
+    }
+    .image2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 1;
+        max-width: 100%;
+    }
+    .image3 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row: 1;
+        max-width: 100%;
+    }
+    .image4 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 2;
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .image5 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row: 2;
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .title {
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }
+    .description {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .content {
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+        grid-template-rows: 0.25fr 0.25fr 0.25fr;
+        gap: 5px;
+    }
+    .image1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;
+        max-width: 100%;
+    }
+    .image2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 1;
+        max-width: 100%;
+    }
+    .image3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .image4 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 2;
+        max-width: 100%;
+        }
+    .image5 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 3;
+        max-width: 100%;
+    }
+    .title {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .description {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+}

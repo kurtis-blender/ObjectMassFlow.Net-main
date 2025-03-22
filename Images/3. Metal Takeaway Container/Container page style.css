@@ -1,0 +1,99 @@
+* {background-color: black;}
+body {color: white;}
+a {color: red;}
+strong {font-family: "Bembo Bold";}
+em {font-family: "Bembo Italic";}
+
+.header {
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+
+.return {
+    font-family: "Bembo Bold";
+    font-size: 1.15rem;
+    text-decoration: underline;
+    margin-right: auto;
+    text-decoration-color: red;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 10px;
+}
+
+.image {
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.secondaryimage {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.primary {
+    text-align: center;
+    font-family: "Bembo Bold";
+    font-size: 2rem;
+    color: red;
+    grid-column: 1;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.secondary {
+    text-align: center;
+    font-family: "Bembo Bold";
+    font-size: 2rem;
+    color: red;
+    grid-column: 2;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.third {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.15rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tags {
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+}
+
+
+@font-face {
+    font-family: "Bembo";
+    src: url(../../../Fonts/BemboStd.woff2);
+}
+@font-face {
+font-family: "Bembo Bold";
+src: url(../../../Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+font-family: "Bembo Italic";
+src: url(../../../Fonts/BemboStd-Italic.woff2);
+}
+@font-face {
+font-family: "Bembo SemiBold Italic";
+src: url(../../../Fonts/BemboStd-SemiboldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo Bold Italic";
+src: url(../../../Fonts/BemboStd-BoldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo ExtraBold Italic";
+src: url(../../../Fonts/BemboStd-ExtraBoldItalic.woff2);
+}

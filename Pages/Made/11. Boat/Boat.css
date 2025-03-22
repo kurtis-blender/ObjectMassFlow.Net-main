@@ -1,0 +1,140 @@
+* {background-color: black;}
+body {color: white;}
+a {color: red;}
+strong {font-family: "Bembo Bold";}
+em {font-family: "Bembo Italic";}
+
+
+.header {
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+.return {
+    font-family: "Bembo Bold";
+    font-size: 1.15rem;
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-right: auto;
+}
+
+.boat1 {
+    max-width: 550px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-family: "Bembo Bold";
+    font-size: 2.5rem;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.description {
+    display: block;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.boats {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 0.5fr;
+    gap: 5px;
+    margin-bottom: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boat2 {
+    grid-column: 1;
+    max-height: 250px;
+    margin-left: auto;
+}
+
+.boat3 {
+    grid-column: 2;
+    max-height: 250px;
+}
+.boat4 {
+    grid-column: 3;
+    max-height: 250px;
+}
+.tags {
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+}
+
+
+@font-face {
+    font-family: "Bembo";
+    src: url(../../../Fonts/BemboStd.woff2);
+}
+@font-face {
+font-family: "Bembo Bold";
+src: url(../../../Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+font-family: "Bembo Italic";
+src: url(../../../Fonts/BemboStd-Italic.woff2);
+}
+@font-face {
+font-family: "Bembo SemiBold Italic";
+src: url(../../../Fonts/BemboStd-SemiboldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo Bold Italic";
+src: url(../../../Fonts/BemboStd-BoldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo ExtraBold Italic";
+src: url(../../../Fonts/BemboStd-ExtraBoldItalic.woff2);
+}
+
+@media only screen and (max-width: 660px) {
+    .image {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-size: 1.7rem;
+        font-family: "Bembo";
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .boats {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .boat2 {
+        max-width: 100%;
+    }
+    .boat3 {
+        max-width: 100%;
+    }
+    .boat4 {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .boat1 {
+        max-width: 100%;
+    }
+}

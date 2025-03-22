@@ -1,0 +1,293 @@
+* {background-color: black;}
+body {color: white;}
+a {color: red;}
+strong {font-family: "Bembo Bold";}
+em {font-family: "Bembo Italic";}
+
+.header {
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+.return {
+    font-family: "Bembo Bold";
+    font-size: 1.15rem;
+    text-decoration: underline red;
+    margin-right: auto;
+}
+
+
+.problem {
+    font-family: "Bembo";
+    font-size: 1.75rem;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    color: red;
+    font-family: "Bembo Bold";
+}
+
+.problemimages {
+    display: grid;
+    grid-template-columns: 0.5fr 400px 0.5fr;
+    gap: 5px;
+}
+
+.image1 {
+    max-width: 400px;
+    max-height: 500px;
+    grid-column: 1;
+    margin-left: auto;
+}
+
+.image2 {
+    max-width: 400px;
+    max-height: 500px;
+    grid-column: 2;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image3 {
+    max-width: 400px;
+    max-height: 500px;
+    grid-column: 3;
+    margin-right: auto;
+}
+
+.fixing {
+    font-family: "Bembo";
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixingimages {
+    display: grid;
+    grid-template-columns: 0.5fr 400px 0.5fr;
+    gap: 5px;
+}
+
+.gif {
+    max-width: 400px;
+    grid-column: 1;
+    margin-left: auto;
+}
+
+.image4 {
+    max-width: 400px;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image5 {
+    max-width: 400px;
+    grid-column: 3;
+    margin-right: auto;
+}
+
+.fixed {
+    font-family: "Bembo";
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixedimages {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 5px;
+}
+
+.image6 {
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: auto;
+    grid-column: 1;
+}
+
+.image7 {
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: auto;
+    grid-column: 2
+}
+
+
+.tags {
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+}
+
+
+@font-face {
+    font-family: "Bembo";
+    src: url(../../../Fonts/BemboStd.woff2);
+}
+@font-face {
+font-family: "Bembo Bold";
+src: url(../../../Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+font-family: "Bembo Italic";
+src: url(../../../Fonts/BemboStd-Italic.woff2);
+}
+@font-face {
+font-family: "Bembo SemiBold Italic";
+src: url(../../../Fonts/BemboStd-SemiboldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo Bold Italic";
+src: url(../../../Fonts/BemboStd-BoldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo ExtraBold Italic";
+src: url(../../../Fonts/BemboStd-ExtraBoldItalic.woff2);
+}
+
+@media only screen and (max-width: 1220px) {
+    .problemimages {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    }
+    .image1 {
+        max-width: 100%;
+    }
+    .image2 {
+        max-width: 100%;
+    }
+    .image3 {
+        max-width: 100%;
+    }
+    .fixingimages {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    }
+    .gif {
+        max-width: 100%;
+    }
+    .image4 {
+        max-width: 100%;
+    }
+    .image5 {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+    .image6 {
+        max-width: 100%;
+    }
+    .image7 {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-size: 1.7rem;
+        font-family: "Bembo";
+    }
+    .problemimages {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    }
+    .image1 {
+        max-width: 400px;
+        margin-right: auto;
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+    .image2 {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .image3 {
+        max-width: 400px;
+        margin-left: auto   ;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .fixingimages {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    }
+    .gif {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 1;
+        margin-right: auto;
+    }
+    .image4 {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .image5 {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 3;
+        margin-left: auto;
+    }
+    .fixedimages {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .image6 {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 1;
+        margin-right: auto;
+    }
+    .image7 {
+        max-width: 400px;
+        grid-column: 1;
+        grid-row: 2;
+        margin-left: auto   ;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .image1 {
+        max-width: 100%;
+    }
+    .image2 {
+        max-width: 100%;
+    }
+    .image3 {
+        max-width: 100%;
+    }
+    .gif {
+        max-width: 100%;
+    }
+    .image4 {
+        max-width: 100%;
+    }.image5 {
+        max-width: 100%;
+    }.image6 {
+        max-width: 100%;
+    }.image7 {
+        max-width: 100%;
+    }
+}
