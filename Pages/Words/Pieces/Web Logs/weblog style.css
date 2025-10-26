@@ -1,0 +1,108 @@
+* {background-color: black;}
+body {color: white;}
+a {color: red;}
+strong {font-family: "Bembo Bold";}
+em {font-family: "Bembo Italic";}
+
+.header {
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+.return {
+    font-family: "Bembo Bold";
+    font-size: 1.15rem;
+    text-decoration: underline;
+}
+
+.headerimage {
+    display: block;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    margin-top: 7px;
+}
+
+.title {
+        color: red;
+        text-align: center;
+        font-family: "Bembo Bold";
+        font-size: 3rem;
+}
+
+.begun {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+
+.paragraphs {
+    font-family: "Bembo";
+    font-size: 1.15rem;
+    max-width: 1200px;  
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.poem {
+    font-family: "Bembo";
+    font-size: 1.15rem;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tags {
+    text-align: center;
+    font-family: "Bembo";
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Bembo";
+    src: url(../../../../Fonts/BemboStd.woff2);
+}
+@font-face {
+font-family: "Bembo Bold";
+src: url(../../../../Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+font-family: "Bembo Italic";
+src: url(../../../../Fonts/BemboStd-Italic.woff2);
+}
+@font-face {
+font-family: "Bembo SemiBold Italic";
+src: url(../../../../Fonts/BemboStd-SemiboldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo Bold Italic";
+src: url(../../../../Fonts/BemboStd-BoldItalic.woff2);
+}
+@font-face {
+font-family: "Bembo ExtraBold Italic";
+src: url(../../../../Fonts/BemboStd-ExtraBoldItalic.woff2);
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-size: 1.7rem;
+        font-family: "Bembo";
+    }
+}
+@media only screen and (max-width: 400px) {
+    .headerimage {
+        max-width: 33%;
+    }
+}
