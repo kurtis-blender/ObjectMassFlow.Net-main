@@ -47,11 +47,21 @@ em {font-family: "Bembo Italic";}
     padding: 5px;
 }
 
+
+.paragraph2 {
+    font-family: "Bembo";
+    font-size: 1.15rem;
+    max-width: 1200px;  
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 .poem {
     font-family: "Bembo";
     font-size: 1.15rem;
-    max-width: 1200px;
-    text-align: center;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
